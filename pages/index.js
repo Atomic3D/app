@@ -3,7 +3,7 @@ import Link from "next/link";
 import A from "../components/A";
 import MainContainer from "../components/MainContainer";
 
-const Index = () => {
+export default function Index() {
     return (
 
         <>
@@ -15,9 +15,5 @@ const Index = () => {
             </MainContainer>
         </>
 
-
-        
     );
 };
-
-export default Index;
